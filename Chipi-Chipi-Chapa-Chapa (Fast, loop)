@@ -1,0 +1,16 @@
+REM TITLE Chipi-Chipi-Chapa-Chapa
+REM AUTHOR Tuhu
+REM DESCRIPTION This script opens a fullscreen video of a cat 
+REM DESCRIPTION And then plays the Chipi-Chipi-Chapa-Chapa song.
+REM Start of Ducky Script
+DELAY 50
+GUI r
+DELAY 50
+STRING powershell -w h -NoP -NonI -Exec Bypass
+ENTER
+DELAY 50
+REM Type the PowerShell command to download the file and open VLC in fullscreen
+STRING $url='https://files.manolia.dk/cursed/Chipi%20chipi%20chapa%20chapa%20cat.mp4';$output="$env:TEMP\file.mp4";iwr -Uri $url -OutFile $output;Start-Process 'vlc' -ArgumentList $output,'--fullscreen','--loop'
+ENTER
+DELAY 50
+REM End of Ducky Script
