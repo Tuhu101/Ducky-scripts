@@ -2,6 +2,7 @@ REM TITLE Chipi-Chipi-Chapa-Chapa
 REM AUTHOR Tuhu
 REM DESCRIPTION This script opens a fullscreen video of a cat 
 REM DESCRIPTION And then plays the Chipi-Chipi-Chapa-Chapa song.
+REM DESCRIPTION Opens VLC in fullscreen.
 DELAY 500
 REM Start of Ducky Script
 DELAY 500
